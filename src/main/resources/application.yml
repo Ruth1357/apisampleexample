@@ -1,0 +1,11 @@
+#server:
+#  port: 9000
+#  
+# spring:
+#  cloud:
+#    gateway:
+#      routes:
+#      -id: serviceone
+#      uri: http://localhost:8001/
+#      predicates:   
+#            -path=/service1/**
